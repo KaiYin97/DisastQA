@@ -1,11 +1,10 @@
 # DisastQA
 
-Accurate question answering (QA) is critical during disasters, yet existing QA benchmarks focus on general or professional domains, leaving disaster contexts critically underexplored. 
-We introduce \textbf{DisastQA}, a large-scale benchmark with 3,000 rigorously verified questions (2,000 Multiple-Choice, 1,000 Open-Ended) spanning diverse and realistic disaster types. 
-DisastQA explicitly models information uncertainty and retrieval dependence—two defining characteristics of real disasters—disentangling model knowledge from evidence use.
-For Open-Ended QA, we propose a novel keypoint-based evaluation protocol that measures fine-grained factual completeness. 
-Benchmarking 18 models reveals substantial divergences from general-domain leaderboards (e.g., MMLU-Pro) and shows that disaster questions often require reasoning over multiple atomic facts. 
-These findings highlight the need for retrieval-aware evaluation in high-stakes domains.
+Accurate question answering (QA) is critical during disasters, yet existing QA benchmarks focus on general or professional domains, leaving disaster contexts critically underexplored. We introduce DisastQA, a large-scale benchmark with 3,000 rigorously verified questions (2,000 Multiple-Choice, 1,000 Open-Ended) spanning diverse and realistic disaster types. DisastQA explicitly models information uncertainty and retrieval dependence—two defining characteristics of real disasters—disentangling model knowledge from evidence use. For Open-Ended QA, we propose a novel keypoint-based evaluation protocol that measures fine-grained factual completeness. Benchmarking 18 models reveals substantial divergences from general-domain leaderboards (e.g., MMLU-Pro) and shows that disaster questions often require reasoning over multiple atomic facts.  These findings highlight the need for retrieval-aware evaluation in high-stakes domains.
+
+<p align="center">
+  <img src="disastQA_workflow.png" width="600"/>
+</p>
 
 ## 📊 Model Performance on **DisastQA**
 
